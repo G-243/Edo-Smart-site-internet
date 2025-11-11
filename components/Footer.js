@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="w-full overflow-hidden relative bg-[#011826] text-light-white py-12 px-6">
+    <footer id="contact" className="w-full relative bg-[#011826] text-light-white py-12 px-6 overflow-hidden">
         <div
   className="absolute inset-0 opacity-5 pointer-events-none"
   style={{
@@ -18,10 +18,10 @@ const Footer = () => {
 ></div>
 <div className="w-full bg-gray-900 text-white px-4 sm:px-6 lg:px-8 py-6 overflow-hidden"></div>
       {/* --- Conteneur principal du footer --- */}
-      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row flex-wrap justify-between items-start gap-6 md:gap-8">
        
         {/* --- Colonne 1 : Logo et texte --- */}
-        <div className="flex flex-col w-full h-12"> 
+        <div className="w-full md:w-[30%]"> 
           <div className="mb-2">
             <Logo /> {/* Logo bien collé à gauche */}
           </div>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
        
         {/* --- Colonne 2 : Pages --- */}
-        <div className="flex-1 min-w-[180px]">
+        <div className="w-full md:w-[12%]">
           <h3 className="text-2xl font-bold mb-6 text-[#B96B25]">Pages</h3>
           <ul className="list-disc list-inside space-y-2 marker:text-[#B96B25] flex flex-col text-left">
             <li><a href="/" className="text-center text-gray-300 hover:text-accent-yellow transition-colors">Home</a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         {/* --- Colonne 3 : Qui sommes-nous --- */}
-        <div className="flex-1 min-w-[260px]">
+        <div className="w-full md:w-[25%]">
           <h3 className="text-2xl font-bold mb-4 text-[#B96B25]">Qui sommes-nous ?</h3>
           <p className="text-justify text-gray-300 mb-4 leading-relaxed">
             <span className="font-semibold text-white">Smart Light DRC Photography</span>, dirigé par <span className="italic">Edovic Mukalayi</span>,
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
 
         {/* --- Colonne 4 : Contact --- */}
-        <div className="flex-1 min-w-[200px]">
+        <div className="w-full md:w-[25%]">
           <h3 className="text-2xl font-bold mb-6 text-[#B96B25]">Contactez-nous</h3>
           <ul className="space-y-4">
             <li className="flex items-center gap-3 text-gray-300">
