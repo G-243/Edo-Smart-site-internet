@@ -16,9 +16,9 @@ const Footer = () => {
     backgroundPosition: "center",
   }}
 ></div>
-<div className="relative z-10"></div>
+<div className="w-full bg-gray-900 text-white px-4 sm:px-6 lg:px-8 py-6 overflow-hidden"></div>
       {/* --- Conteneur principal du footer --- */}
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
        
         {/* --- Colonne 1 : Logo et texte --- */}
         <div className="flex flex-col w-full h-12"> 
