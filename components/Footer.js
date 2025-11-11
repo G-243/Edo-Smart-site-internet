@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="relative bg-[#011826] text-light-white py-12 px-6">
+    <footer id="contact" className="w-full overflow-hidden relative bg-[#011826] text-light-white py-12 px-6">
         <div
   className="absolute inset-0 opacity-5 pointer-events-none"
   style={{

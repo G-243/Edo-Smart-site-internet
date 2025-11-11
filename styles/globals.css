@@ -94,4 +94,8 @@ body {
   to { opacity: 1; transform: scale(1); }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
