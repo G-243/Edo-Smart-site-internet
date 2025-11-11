@@ -1,9 +1,8 @@
-import Layout from "../components/Layout";
+
 import Image from "next/image";
 
 export default function SeancePreMariage() {
   return (
-    <Layout>
       <section className="max-w-6xl mx-auto px-6 py-20 pt-32">
         <h1 className="text-4xl font-bold text-yellow-500 mb-8 text-center">
           Séance Pré-Mariage
@@ -96,6 +95,5 @@ export default function SeancePreMariage() {
           {/* Ajoute d'autres photos ici */}
         </div>
       </section>
-    </Layout>
   );
 }
