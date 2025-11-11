@@ -48,18 +48,18 @@ const ReviewSection = () => {
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 border-l-4 border-[#B96B25]"
+              className="bg-[#022133] p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 border-l-4 border-[orange]"
             >
               <div className="mb-4">
-                <div className="flex gap-1 text-[#B96B25] text-xl">
+                <div className="flex gap-1 text-[orange] text-xl">
                   {'★'.repeat(review.rating)}
                 </div>
               </div>
-              <p className="text-gray-700 text-lg leading-relaxed mb-6 italic">
+              <p className="text-white text-lg leading-relaxed mb-6 italic">
                 "{review.text}"
               </p>
               <div className="pt-4 border-t border-gray-200">
-                <p className="text-[#79301B] font-semibold text-lg">
+                <p className="text-[orange] font-semibold text-lg">
                   — {review.name}
                 </p>
               </div>

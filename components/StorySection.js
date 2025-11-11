@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const StorySection = () => {
   return (
-    <section id="story" className="py-20 px-12 bg-black">
+    <section id="story" className="py-20 px-12 bg-[#022133]">
       <div className="container mx-auto max-w-7xl ">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}

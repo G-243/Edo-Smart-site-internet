@@ -101,7 +101,7 @@ export default function MenuCard() {
   }, [selectedImage]);
 
   return (
-    <section className="text-white py-16 px-6 pt-24">
+    <section className="text-white py-16 px-4 pt-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-center text-yellow-500">
           Galerie

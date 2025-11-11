@@ -87,7 +87,7 @@ const HeroSlider = () => {
                   </p>
                   <div className="flex gap-4 justify-center flex-wrap">
                     <button className="px-8 py-3 bg-[#B96B25] text-white font-semibold rounded-md hover:scale-102 transition-transform duration-300 shadow-lg hover:shadow-xl">
-                      Reservez Maintenant
+                    <a href="/contact" className="text-center">Reservez Maintenant</a>
                     </button>
                     <button className="px-8 py-3 bg-white/10 text-white font-semibold rounded-md hover:scale-102 transition-transform duration-300 backdrop-blur border border-white/20">
                     <a href="/Portfolio" className="text-center text-gray-300 transition-colors">Portfolio</a>

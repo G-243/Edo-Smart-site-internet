@@ -26,12 +26,12 @@ export default function Avis() {
 
   return (
 
-    <div className="p-6">
+    <div className="p-6 bg-[#011826]">
 
     <section
       style={{ padding: "100px 20px", textAlign: "center" }}
     >
-      <h1 style={{ fontSize: "2.5rem", marginBottom: "20px", color: "#222" }}>
+      <h1 style={{ fontSize: "2.5rem", marginBottom: "20px", color: "orange" }}>
         💬 Avis de nos Clients
       </h1>
       <p
@@ -39,7 +39,7 @@ export default function Avis() {
           maxWidth: "700px",
           margin: "0 auto 60px",
           lineHeight: "1.7",
-          color: "#555",
+          color: "white",
           fontSize: "1.1rem",
         }}
       >
@@ -65,7 +65,7 @@ export default function Avis() {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             whileHover={{ scale: 1.03 }}
             style={{
-              background: "#fff",
+              background: "#022133",
               borderRadius: "20px",
               padding: "30px",
               boxShadow: "0 6px 15px rgba(0,0,0,0.1)",
@@ -101,15 +101,15 @@ export default function Avis() {
                 }}
               />
               <div>
-                <h3 style={{ margin: "0", color: "#333" }}>{avis.nom}</h3>
-                <p style={{ color: "#888", fontSize: "0.9rem" }}>Client(e)</p>
+                <h3 style={{ margin: "0", color: "orange" }}>{avis.nom}</h3>
+                <p style={{ color: "white", fontSize: "0.9rem" }}>Client(e)</p>
               </div>
             </div>
             <p
               style={{
                 fontStyle: "italic",
                 lineHeight: "1.6",
-                color: "#444",
+                color: "white",
               }}
             >
               “{avis.message}”
