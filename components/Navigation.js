@@ -89,10 +89,10 @@ const Navigation = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden transition-all duration-300 overflow-hidden ${
-        isMobileMenuOpen ? 'max-h-96' : 'max-h-0'
+      <div className={`md:hidden transition-all duration-300 overflow-hidden absolute top-20 right-0 bg-white shadow-lg z-50 ${
+        isMobileMenuOpen ? 'max-h-screen' : 'max-h-0'
       } bg-white shadow-lg`}>
-        <div className="container mx-auto px-4 py-4 space-y-4">
+        <div className="w-3/4 py-4 px-6 space-y-4 ml-auto">
           {navLinks.map((link) =>
             link.href.startsWith("#") ? (
               <button
