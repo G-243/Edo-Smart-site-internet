@@ -3,7 +3,7 @@ import Footer from "./Footer";
 // components/Layout.jsx
 export default function Layout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="w-full overflow-x-hidden flex flex-col min-h-screen">
       <Navigation /> {/* <-- utilisation du composant */}
       {/* Contenu principal */}
       <main className="flex-grow">{children}</main>

@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Smart Light Drc Photography</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Smart Light DRC Photography, dirigé par Edovic Mukalayi, capture vos plus beaux moments avec passion et créativité." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
