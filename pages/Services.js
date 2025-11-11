@@ -20,7 +20,7 @@ const servicesSlides = [
     slug: "seance-pre-mariage",
   },
   {
-    image: "https://res.cloudinary.com/ds4x7wbbv/image/upload/v1761556554/AMZ_2536_wlssn0.jpg",
+    image: "https://res.cloudinary.com/ds4x7wbbv/image/upload/v1760080991/AMZ_2535_botqjx.jpg",
     title: "Séance Post Mariage",
     slug: "seance-post-mariage",
   },

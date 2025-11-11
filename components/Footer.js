@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="w-full relative bg-[#011826] text-light-white py-12 px-6 overflow-hidden">
+    <footer id="contact" className="w-full relative bg-[#011826] text-light-white py-2 px-6 overflow-hidden">
         <div
   className="absolute inset-0 opacity-5 pointer-events-none"
   style={{
@@ -22,11 +22,11 @@ const Footer = () => {
        
         {/* --- Colonne 1 : Logo et texte --- */}
         <div className="w-full md:w-[30%]"> 
-          <div className="mb-2">
+          <div className="-mt-2 md:-mt-6 mb-4">
             <Logo /> {/* Logo bien collé à gauche */}
           </div>
           
-        <div className="mt-2 w-full">
+        <div className="mt-6 w-full">
           <p className="block w-full text-sm text-gray-300 leading-relaxed text-justify">
           Né à Lubumbashi, inspiré par l’Afrique. Smart Light DRC, c’est la créativité congolaise au service de l’excellence visuelle.
           </p>
