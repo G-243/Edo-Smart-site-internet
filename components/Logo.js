@@ -9,7 +9,7 @@ const Logo = () => {
           src="https://res.cloudinary.com/ds4x7wbbv/image/upload/v1761648041/1761647853532_h4glnk.png"
           alt="Smart DRC Photography Logo"
           fill
-          className="object-contain"
+          className="object-contain w-32 md:w-48"
           priority
         />
       </div>
